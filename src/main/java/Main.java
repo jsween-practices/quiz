@@ -8,5 +8,6 @@ public class Main {
     QuizView view = new QuizView(scanner);
     QuizController controller = new QuizController(quiz, view);
     controller.startQuiz();
+    scanner.close();
   }
 }
